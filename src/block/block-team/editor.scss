@@ -1,0 +1,85 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
+.gts-testimonial-block {
+	background: #f3f3f3;
+	border-radius: 5px;
+	border: 1px solid #cacaca;
+}
+.wp-block-quote:not(.is-large):not(.is-style-large) {
+
+    border-left: 4px solid #ea2424;
+    padding-left: 1em;
+
+}
+.removebtn {
+	color: #fff;
+	background-color: #c82333;
+	border-color: #bd2130;
+	padding: 5px 10px;
+}
+.removebtn:hover {
+	color: #fff;
+	text-decoration: none;
+}
+.content-plain-text {
+	min-height: 58px !important;
+}
+
+.wp-block-quote {
+	margin-bottom: 0.5em;
+}
+
+button.add-more-testimonial {
+	height: 55px;
+	width: 55px;
+	background: #f75a57;
+	border-radius: 50%;
+	position: relative;
+	border: none;
+	font-size: 2em;
+	color: white;
+	line-height: 1;
+}
+
+span.remove-testimonial {
+	right: 30px;
+	position: absolute;
+}
+
+textarea.editor-plain-text.content-plain-text,
+textarea.editor-plain-text.member-plain-text,
+textarea.editor-plain-text.link-plain-text {
+	background: #fafafa;
+	border: 1px solid #dadada;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.gts__picture {
+	position: relative;
+
+	a {
+		cursor: pointer;
+	}
+
+	.gts__picture__actions {
+		position: absolute;
+		bottom: -30px;
+		left: 0;
+		right: 30px;
+		font-size: .8em;
+		text-align: center;
+	}
+}
+
+.gts__picture__image {
+	display: block;
+	cursor: pointer;
+	line-height: 100px;
+	text-align: center;
+}

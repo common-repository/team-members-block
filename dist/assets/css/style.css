@@ -1,0 +1,601 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,300,700,900);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800);
+
+
+html,
+body {
+    height: 100%;
+}
+
+a:focus {
+    outline: 0px solid;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    margin: 0 0 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 22px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+a {
+    transition: all 0.5s ease 0s;
+    text-decoration: none;
+    color: #333333;
+}
+
+a:hover {
+    color: #08838f;
+    text-decoration: none;
+}
+
+a:active,
+a:hover {
+    outline: 0 none;
+    color: #08838f;
+}
+
+ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #797979;
+    vertical-align: baseline;
+}
+
+
+
+/*-------------------------------------
+17.Home2 Page Team Expert Section Area Start Here
+---------------------------------------*/
+
+.homepage2-team-area {
+    padding: 80px 0 90px;
+    overflow: hidden;
+}
+
+.homepage2-team-area .total-team-area {
+    text-align: center;
+}
+
+.homepage2-team-area .total-team-area h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #222222;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.homepage2-team-area .total-team-area h2:after {
+    background: #1cb9c8 none repeat scroll 0 0;
+    bottom: -17px;
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    width: 50px;
+    right: 0;
+    margin: auto;
+}
+
+.homepage2-team-area .homepage2-team .single-team {
+    position: relative;
+    overflow: hidden;
+    margin: 30px 0 0 0;
+}
+
+.homepage2-team-area .homepage2-team .single-team:hover .team-image .overley {
+    opacity: 1;
+    transform: scaleY(1);
+}
+
+.homepage2-team-area .homepage2-team .single-team .team-image {
+    display: block;
+}
+
+.homepage2-team-area .homepage2-team .single-team .team-image a {
+    display: block;
+}
+
+.homepage2-team-area .homepage2-team .single-team .team-image a img {
+    width: 100%;
+}
+
+.homepage2-team-area .homepage2-team .single-team .team-image .overley {
+    position: absolute;
+    content: "";
+    background: rgba(28, 185, 200, 0.8);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    transition: all 0.5s ease 0s;
+    opacity: 0;
+    transform: scaleY(0);
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.homepage2-team-area .homepage2-team .single-team .team-image .overley .content-area {
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    /* IE 9 */
+    -webkit-transform: translateY(-50%);
+    /* Chrome, Safari, Opera */
+}
+
+.homepage2-team-area .homepage2-team .single-team .team-image .overley .content-area h3 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    position: relative;
+    padding-bottom: 12px;
+}
+
+.homepage2-team-area .homepage2-team .single-team .team-image .overley .content-area h3:after {
+    background: #ffffff;
+    bottom: 0px;
+    content: "";
+    height: 3px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    width: 50px;
+}
+
+.homepage2-team-area .homepage2-team .single-team .team-image .overley .content-area h3 a {
+    color: #ffffff;
+    transition: all 0.5s ease 0s;
+}
+
+.homepage2-team-area .homepage2-team .single-team .team-image .overley .content-area p.designation {
+    color: #ffffff;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.homepage2-team-area .homepage2-team .single-team .team-image .overley .content-area p.short-description {
+    padding: 0 20px;
+    color: #ffffff;
+}
+
+.homepage2-team-area .homepage2-team .single-team .team-image .overley .content-area ul li {
+    display: inline-block;
+    margin: 3px;
+}
+
+.homepage2-team-area .homepage2-team .single-team .team-image .overley .content-area ul li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    font-size: 20px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    transition: all 0.5s ease 0s;
+}
+
+.homepage2-team-area .homepage2-team .single-team .team-image .overley .content-area ul li a:hover {
+    background: #08838f;
+    color: #ffffff;
+    border: 1px solid #08838f;
+}
+
+
+/*-------------------------------------
+19.Header Banner Area section Start Here
+---------------------------------------*/
+
+.header-banner-area {
+    padding: 90px 0;
+    background: url(img/banner.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.header-banner-area .header-banner {
+    text-align: center;
+}
+
+.header-banner-area .header-banner h1 {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.header-banner-area .header-banner ul li {
+    display: inline-block;
+    color: #1cb9c8;
+    margin-right: 5px;
+}
+
+.header-banner-area .header-banner ul li a {
+    display: block;
+    text-decoration: none;
+    color: #b2b2b2;
+}
+
+.header-banner-area .header-banner ul li a:hover {
+    color: #b2b2b2;
+}
+
+
+/*-------------------------------------
+23.Team Page Team Expert Section Area Start Here
+---------------------------------------*/
+
+.total-team-page-area .homepage2-team-area .homepage2-team .single-team {
+    margin: 15px 0;
+}
+
+.total-team-page-area .single-team .team-image img {
+    transition: all 0.5s ease 0s;
+}
+
+.total-team-page-area .single-team:hover .team-image img {
+    transform: scale(1.1);
+}
+
+.total-team-page-area .single-team:hover .team-image .team-content {
+    display: none;
+}
+
+.total-team-page-area .single-team .team-image .team-content {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all 3s;
+}
+
+.total-team-page-area .single-team .team-image .team-content h3 {
+    margin: 0;
+}
+
+.total-team-page-area .single-team .team-image .team-content h3 a {
+    text-align: left;
+    color: #ffffff;
+    font-size: 22px;
+    background: #1cb9c8;
+    font-weight: 600;
+    padding: 8px 20px;
+}
+
+.total-team-page-area .single-team .team-image .team-content p.designation {
+    background: #000000;
+    text-align: left;
+    color: #ffffff;
+    padding: 8px 20px;
+}
+
+
+
+/*-------------------------------------
+24.Single Team Page Section Area Start Here
+---------------------------------------*/
+
+.single-team-page-area {
+    padding: 90px 0;
+}
+
+.single-team-page-area .team-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.single-team-page-area .team-image:hover:before {
+    right: 0;
+    top: 0;
+}
+
+.single-team-page-area .team-image:hover:after {
+    left: 0;
+    bottom: 0;
+}
+
+.single-team-page-area .team-image:before {
+    right: -100%;
+    top: -100%;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    content: "";
+    transition: all .5s;
+}
+
+.single-team-page-area .team-image:after {
+    left: -100%;
+    bottom: -100%;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    content: "";
+    transition: all 0.5s ease 0s;
+}
+
+.single-team-page-area .team-image a {
+    display: block;
+}
+
+.single-team-page-area .team-image a img {
+    width: 100%;
+}
+
+.single-team-page-area .single-team-content-area h2 {
+    color: #002222;
+    display: block;
+    font-size: 30px;
+    line-height: 30px;
+    position: relative;
+    text-decoration: none;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+.single-team-page-area .single-team-content-area h2:after {
+    background: #1cb9c8;
+    bottom: 0px;
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    width: 70px;
+}
+
+.single-team-page-area .single-team-content-area .social-media {
+    margin-top: 35px;
+}
+
+.single-team-page-area .single-team-content-area .social-media ul li {
+    display: inline-block;
+    border: 1px solid #1cb9c8;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+.single-team-page-area .single-team-content-area .social-media ul li:hover {
+    border: 1px solid #1cb9c8;
+}
+.single-team-page-area .single-team-content-area .social-media ul li:hover a {
+    background: #1cb9c8;
+    color: #ffffff;
+}
+.single-team-page-area .single-team-content-area .social-media ul li a {
+    color: #1cb9c8;
+    text-decoration: none;
+    transition: all 0.5s ease 0s;
+    display: block;
+    font-size: 20px;
+    padding: 7px;
+    text-align: center;
+}
+
+
+
+
+/* responsive code */
+
+/* Large desktop :1170px. */
+
+@media (min-width: 1170px) and (max-width: 1260px) {
+    .homepage2-team-area .homepage2-team .single-team .team-image .overley .content-area p.short-description {
+        padding: 0;
+    }
+}
+
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1169px) {
+    .homepage2-team-area .homepage2-team .single-team .team-image .overley .content-area p.short-description {
+        padding: 0;
+    }
+    .header-banner-area {
+        padding: 70px 0;
+    }
+    .header-banner-area .header-banner h1 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+}
+
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 750px;
+    }
+    .homepage2-team-area .homepage2-team .single-team .team-image .overley .content-area ul li a {
+        font-size: 22px;
+        height: 35px;
+        line-height: 35px;
+        width: 35px;
+        line-height: 30px;
+    }
+    .homepage2-team-area .homepage2-team .single-team .team-image .overley .content-area h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .homepage2-team-area .homepage2-team .single-team .team-image .overley .content-area p.short-description {
+        padding: 0;
+    }
+    .team-four-area .single-team-four {
+        margin-bottom: 30px;
+    }
+    .homepage2-team-area .homepage2-team .single-team .team-image .overley .content-area h3 a::after {
+        top: 32px;
+    }
+
+    /*---------------inner page style-------------------*/
+    .homepage2-team-area {
+        padding: 80px 0;
+    }
+	.header-banner-area {
+        padding: 60px 0;
+    }
+    .header-banner-area .header-banner h1 {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+}
+
+/* Large Mobile :480px. */
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    .homepage2-team-area .homepage2-team .single-team .team-image .overley .content-area ul li a {
+        font-size: 22px;
+        height: 35px;
+        line- height: 35px;
+        width: 35px;
+        line-height: 30px;
+    }
+    .homepage2-team-area .homepage2-team .single-team .team-image .overley .content-area h3 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .homepage2-team-area .homepage2-team .single-team .team-image .overley .content-area p.short-description {
+        display: none;
+    }
+    .homepage2-team-area .homepage2-team .single-team .team-image .overley .content-area p.short-description {
+        padding: 0;
+    }
+    .single-team-page-area .single-team-content-area h2 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+	.total-team-page-area .single-team .team-image .team-content h3 a {
+        font-size: 17px;
+	}
+    /*-------------------inner page css-------------------*/
+    .homepage2-team-area .homepage2-team .single-team {
+        margin-top: 30px;
+    }
+    .header-bennar-area .header-bennar h1 {
+        font-size: 28px;
+    }
+}
+
+/* small mobile :480px. */
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+    .homepage2-team-area .homepage2-team .single-team .team-image .overley .content-area ul li a {
+        font-size: 22px;
+        height: 35px;
+        line- height: 35px;
+        width: 35px;
+        line-height: 30px;
+    }
+    .homepage2-team-area .homepage2-team .single-team .team-image .overley .content-area h3 {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .homepage2-team-area .homepage2-team .single-team .team-image .overley .content-area p.short-description {
+        display: none;
+        padding: 0;
+    }
+    .homepage2-team-area .total-team-area h2 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .homepage2-team > div {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .homepage2-team-area .homepage2-team .single-team {
+        margin-top: 20px;
+    }
+    .header-banner-area {
+        padding: 40px 0;
+    }
+    .header-banner-area .header-banner h1 {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+}
+
+
+/* small mobile :320px. */
+
+@media (max-width: 320px) {
+    .homepage2-team-area .homepage2-team .single-team .team-image .overley .content-area ul li a {
+        font-size: 22px;
+        height: 35px;
+        line- height: 35px;
+        width: 35px;
+        line-height: 30px;
+    }
+    .homepage2-team-area .homepage2-team .single-team .team-image .overley .content-area h3 {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .homepage2-team-area .homepage2-team .single-team .team-image .overley .content-area p.short-description {
+        display: none;
+    }
+    .homepage2-team-area .homepage2-team .single-team .team-image .overley .content-area p.short-description {
+        padding: 0;
+    }
+    .homepage2-team-area .total-team-area h2,
+	.single-team-page-area .single-team-content-area h2	{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .header-banner-area .header-banner h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .total-team-area {
+        margin: 0 15px;
+    }
+    .homepage2-team-area,
+	.single-team-page-area	{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .header-bennar-area {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+	.single-team-page-area .single-team-content-area h2 {
+        margin-top: 15px;
+    }
+	.header-bennar-area .header-bennar h1 {
+        font-size: 28px;
+    }
+}
